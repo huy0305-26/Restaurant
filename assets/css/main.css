@@ -11,10 +11,40 @@
 # Help: https://bootstrapmade.com/color-system/
 --------------------------------------------------------------*/
 /* Fonts */
-.img-special{
+
+.food-thumb {
+  position: relative;
+  display: inline-block;
   border-radius: 50%;
-  border: 10px solid #CDA45E;
 }
+
+.food-thumb::before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  width: 105%; /* Kích thước lớn hơn ảnh một chút */
+  height: 105%;
+  border: 5px dashed #CDA45E;
+  /* border-top: 5px dashed #CDA45E; Màu viền */
+  border-radius: 50%;
+  animation: rotate-border 10s linear infinite;
+}
+
+@keyframes rotate-border {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.img-special {
+  border-radius: 50%;
+}
+
 
 :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
