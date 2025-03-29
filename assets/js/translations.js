@@ -141,7 +141,7 @@ const translations = {
     "Xôi cua": "Crab Sticky Rice",
     "Thịt heo rừng nướng ống tre & xôi khúc": "Grilled Wild Boar in Bamboo & Sticky Rice",
     "Khai vị": "Appetizers",
-    "Món chính": "Main Dishs",
+    "Món chính": "Main Dishes",
     "Món chay": "Vegetarian",
     "Tráng miệng": "Desserts",
     "Xôi cua – Hương vị biển cả trong từng hạt nếp": "Crab Sticky Rice – <i>The Taste of the Ocean in Every Grain</i>",
