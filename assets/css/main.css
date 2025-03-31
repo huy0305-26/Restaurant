@@ -1577,6 +1577,18 @@ section,
   background-color: var(--accent-color);
 }
 
+.testimonials a {
+  color: var(--default-color);
+  background: none;
+  border: 2px solid var(--accent-color);
+  padding: 8px 36px;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+.testimonials a:hover {
+  background: var(--accent-color);
+}
 /*--------------------------------------------------------------
 # Gallery Section
 --------------------------------------------------------------*/
